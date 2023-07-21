@@ -1,0 +1,77 @@
+*{
+    margin:auto ;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* main{ */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSltLdexyYLQkyBCFm_ZVnf9KpFeizsmvVMlw&usqp=CAU"); */
+
+    /* background-repeat: no-repeat; */
+     /* background-position: center;  */
+    /* width: 300px; */
+    /* height: 180px; */
+    /* text-align: center; */
+    /* position:absolute; */
+    
+/* } */
+
+.bg {
+    height: 500px;
+    width: 100%;
+    background-position:center ;
+
+    background-image: url("https://images.unsplash.com/photo-1684750582572-d69bce90ffa2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+  
+    background-attachment: fixed;
+}
+
+#logo{
+    height:50px ;
+    width:100px ;
+    display: flex;
+}
+
+#logo:hover{
+    color: black;
+    background-color:green;
+    cursor: pointer;
+}
+
+header{
+ display: flex;
+ justify-content: space-around;
+ align-items:center ;
+ background-color: blue;
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;    
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s; 
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover{
+    color: white;
+    background-color: red;
+}
+.icone{
+    height: 20px;
+    width: 50px;
+}
+
+.icone:hover{
+    color: black;
+    background-color:green;
+
+}
